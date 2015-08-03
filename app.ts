@@ -2,17 +2,18 @@
 import {Component, View, bootstrap} from 'angular2/angular2';
 
 
+
 @Component({
   selector: 'my-app'
 })
 @View({
-  template: '<h3>Hello {{ name }}</h3>'
+  templateUrl: 'home.html'
 })
 
 class MyAppComponent {
   name: string;
   constructor() {
-    this.name = 'Angular2';
+    //this.name = 'Angular2';
   }
 }
 bootstrap(MyAppComponent);

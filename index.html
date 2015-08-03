@@ -1,14 +1,51 @@
 <!-- index.html -->
 <html>
   <head>
-    <title>Angular 2 Quickstart</title>
+    <title>Miku GNOME</title>
     <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
     <script src="https://jspm.io/system@0.16.js"></script>
     <script src="https://code.angularjs.org/2.0.0-alpha.28/angular2.dev.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/ripples.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/roboto.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
   </head>
   <body>
-    
+    <nav class="navbar navbar-inverse" style="background:#1976D2; height:200px;">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><i class="mdi-hardware-headset-mic"> </i>Miku GNOME</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/Miku-GNOME">On Github</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
     <my-app></my-app>
     <script>System.import('app');</script>
+
+
+
+    </div> <!-- /container -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js"></script>
+    <script>
+    $(function() {
+      $.material.init();
+    });
+    </script>
+
   </body>
 </html>

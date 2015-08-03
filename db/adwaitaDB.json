@@ -1,0 +1,19 @@
+
+{
+  "base-color": {
+      "light":"#ffffff",
+      "dark":"#292929"
+  },
+  "text-color": {
+    "light":"#000000",
+    "dark":"#ffffff"
+  },
+  "bg-color": {
+    "light":"#ededed",
+    "dark":"#393f3f"
+  },
+  "fg-color": {
+    "light":"#2e3436",
+    "dark":"#eeeeec"
+  }
+}

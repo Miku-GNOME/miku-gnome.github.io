@@ -1,0 +1,59 @@
+body {
+  padding-bottom:150px;
+}
+.cbox {
+  width:  300px;
+  height: 120px;
+  margin: 20px 0px;
+  padding: 16px;
+  display: inline-block;
+}
+
+.cbox > p {
+  margin-top:5px;
+  font-size:1.1em;
+  color red;
+}
+
+/*Colors should be in db, but fuck it now!*/
+
+
+.c-headerbar {
+  background: linear-gradient(#E4E6EA,#DBDEE2);
+}
+
+.c-headerbar-tint {
+  background: #ffffff;
+}
+
+.c-sidebar {
+  background: #EFF0F3;
+}
+
+.c-win-border {
+  background:#B5B5B5;
+}
+
+.c-placeholder {
+  background: #7B7D85;
+}
+
+.c-warning {
+  background: #EC6670;
+}
+
+.c-symbolic {
+  background: #6F7174;
+}
+
+.c-base {
+  background: #F5F6F9;
+}
+
+.c-inactive {
+  background:#EDEEF1;
+}
+
+.c-popover {
+  background: #C3C4C7;
+}
